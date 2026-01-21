@@ -122,6 +122,7 @@ p{
     width: 50%;
     border-radius: 5px;
     padding:20px;
+    margin-top: 20px;
     text-align: center;
     
    
@@ -134,6 +135,8 @@ p{
     margin-top: 20px;
 
 }
+
+
 
 
 .post{
@@ -187,4 +190,33 @@ p{
 .texto-copyright{
     padding-top: 20px;
 
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+ .icono{
+    /* float: left; */
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+ }    
+ 
+
+.telefono,
+.email{
+    display: inline-block;
+    align-items: baseline;
+} 
+
+.team{
+    background-color: rgb(255, 65, 110);
 }
